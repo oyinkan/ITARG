@@ -1,0 +1,269 @@
+body {
+	background-color: #E5E5E5;
+	font-family: 'Montserrat', sans-serif;
+}
+#logo {
+	float: left;
+}
+#logo-link {
+	margin-top: -7px;
+}
+#itarj {
+	color: #2f80ed;
+	font-size: 24px;
+	margin-left: 5px;
+    position: relative;
+    top: 7px;
+}
+.navbar-inverse {
+	background-color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    height: 65px
+}
+#nav-container {
+	margin-top: 6px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+}
+#signup-button {
+    width: 130px;
+    height: 40px;
+    padding-top: 9px;
+    color: #fff;
+    margin-top: 5px;
+    background: #2f80ed;
+    border-color: #2f80ed;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+#signup-button:hover {
+	background: #fff;
+	color: #2f80ed;
+}
+.signin-div {
+	width: 70%;
+    height: auto;
+    padding-bottom: 40px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 110px;
+}
+#login-link {
+	color: #2f80ed;
+}
+.login {
+	font-size: 32px;
+	color: #000;
+	text-align: center;
+	padding-top: 50px;
+    margin-bottom: 20px;
+}
+#signin-form {
+	width: 65%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#signin-button {
+	width: 100%;
+	height: 50px;
+	border-radius: 4px;
+	background: #2f80ed;
+	border-color: #2f80ed;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	padding-top: 3px;
+}
+#signin-button:hover {
+	background: #fff;
+	color: #2f80ed;
+}
+.form-control {
+	height: 50px;
+	border: 1px solid #bdbdbd;
+}
+.signin-line {
+	border: 1px solid #bdbdbd;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.signin-with {
+	font-size: 28px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282;
+    position: relative;
+    top: -18px;
+    padding: 0 60px;
+    background-color: #fff;
+}
+.socials {
+	padding-left: 30px;
+    padding-right: 30px;
+}
+#googleplus {
+	background: #dd5125;
+	border-color: #dd5125;
+	color: #fff;
+	font-size: 21px;
+}
+#facebook {
+	background: #3b5998;
+	border-color: #3b5998;
+	color: #fff;
+	font-size: 21px;
+}
+#twitter {
+	background: #1da1f2;
+	border-color: #1da1f2;
+	color: #fff;
+	font-size: 21px;
+}
+#socials-div {
+	margin: 60px 0;
+	text-align: center; 
+}
+.noaccount {
+	font-size: 22px;
+	font-weight: 500;
+}
+#forgot {
+	margin-top: -10px;
+}
+footer {
+	background: #2f80ed;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+#footerlinks-div {
+	float: right;
+}
+footer p {
+	font-size: 16px;
+}
+.address {
+	font-weight: 600;
+}
+.links {
+	margin-left: 30px;
+	font-size: 20px;
+}
+#footerlinks-div a {
+	color: #fff;
+}
+#subscribe-div {
+	margin-top: 30px;
+}
+#newsletter-email {
+	background: transparent;
+	height: 40px;
+	color: #fff;
+}
+#subscribe {
+	color: #06d6a0;
+	background: #fff;
+	height: 40px;
+	padding: 0 20px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+#copy {
+	margin-top: 20px;
+}
+.space {
+	margin-top: -10px;
+}
+.change-color::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.change-color:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.change-color:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.change-color::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle {
+	background: #2f80ed;
+	border-color: #2f80ed;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #2f80ed;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	background: transparent;
+	font-weight: bold;
+	color: #000;
+}
+#reset {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 10px 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#cancel {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+#cancel a {
+	color: #2f80ed;
+}
+@media screen and (max-width: 767px) {
+	#googleplus, #facebook, #twitter {
+		margin-bottom: 10px;
+	}
+	#nav-container {
+		background: #fff;
+	}
+	#footerlinks-div, .pull-right  {
+		float: left!important;
+	}
+	#newsletter-email {
+		width: 60%;
+    	float: left;
+	}
+	#subscribe {
+		float: left;
+    	margin-left: 5px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.login {
+    	font-size: 25px;
+	}
+	#signin-button {
+		/*width: auto;*/
+		font-size: 19px;
+	}
+	.signin-div {
+    	width: 90%; 
+	}
+	#reset {
+    	font-size: 22px;
+	}
+}
+@media screen and (max-width: 330px) {
+	#signin-button {
+		width: auto;
+	}
+}
