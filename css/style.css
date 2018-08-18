@@ -113,17 +113,29 @@ body {
 	color: #fff;
 	font-size: 21px;
 }
+#googleplus:hover {
+	background: #fff;
+	color: #dd5125;
+}
 #facebook {
 	background: #3b5998;
 	border-color: #3b5998;
 	color: #fff;
 	font-size: 21px;
 }
+#facebook:hover {
+	background: #fff;
+	color: #3b5998;
+}
 #twitter {
 	background: #1da1f2;
 	border-color: #1da1f2;
 	color: #fff;
 	font-size: 21px;
+}
+#twitter:hover {
+	background: #fff;
+	color: #1da1f2;
 }
 #socials-div {
 	margin: 60px 0;
@@ -257,6 +269,13 @@ footer p {
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+}
+#get-started:hover {
+	background: #fff;
+	color: #2f80ed;
+}
+a:hover {
+	text-decoration: none;
 }
 #contributed {
 	width: 90%;

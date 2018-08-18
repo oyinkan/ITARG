@@ -8,6 +8,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="font-awesome-4.7.0/css/font-awesome-animation.min.css" rel="stylesheet"/>
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
@@ -27,13 +29,13 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">BLOG</a></li>
                         <li><a href="signin.html" id="login-link">LOGIN</a></li>
-                        <li><a href="signup.html" class="btn btn-info" id="signup-button">SIGN UP</a></li>
+                        <li><a href="signup.html" class="btn btn-info hvr-shrink" id="signup-button">SIGN UP</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="signin-div">
+    <div class="signin-div wow fadeInDown animated">
         <p class="login">Create an account</p>
         <form id="signin-form">
             <div class="form-group">
@@ -51,7 +53,7 @@
             <div class="form-group">
                 <input type="password" class="form-control" id="password" placeholder="Confirm password">
             </div>
-            <button type="submit" class="btn btn-default" id="signin-button">Sign Up</button>
+            <button type="submit" class="btn btn-default hvr-shrink" id="signin-button">Sign Up</button>
         </form>
         <div class="signin-line">
             <span class="signin-with">or signup with</span>
@@ -59,13 +61,13 @@
         <div id="socials-div">
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <a class="btn btn-info socials" id="googleplus"><i class="fa fa-google-plus-square"></i> &nbsp&nbspgoogle</a>
+                    <a class="btn btn-info socials hvr-shrink" id="googleplus"><i class="fa fa-google-plus-square"></i> &nbsp&nbspgoogle</a>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <a class="btn btn-info socials" id="facebook"><i class="fa fa-facebook-square"></i> &nbsp&nbspfacebook</a>
+                    <a class="btn btn-info socials hvr-shrink" id="facebook"><i class="fa fa-facebook-square"></i> &nbsp&nbspfacebook</a>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <a class="btn btn-info socials" id="twitter"><i class="fa fa-twitter-square"></i> &nbsp&nbsptwitter</a>
+                    <a class="btn btn-info socials hvr-shrink" id="twitter"><i class="fa fa-twitter-square"></i> &nbsp&nbsptwitter</a>
                 </div>
             </div>
         </div>
@@ -136,4 +138,5 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
 </body>
