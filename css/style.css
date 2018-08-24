@@ -303,7 +303,7 @@ a:hover {
 	font-size: 18px;
 	color: #2196f3;
 }
-#blog-post li a {
+#blog-post li a, .blog-link {
 	color: #000;
 }
 #landing-copyright {
@@ -315,7 +315,7 @@ a:hover {
 
 /* user dashboard */
 .dashboard-container {
-	padding: 20px 10px;
+	padding: 20px 10px 8px 10px;
 	margin-left: 50px;
 	margin-bottom: -14px;
 }
@@ -446,9 +446,42 @@ a:hover {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 	border-radius: 4px;
 	margin: 20px;
+	margin-bottom: 30px;
     padding: 20px;
 }
-
+.blog-username {
+	font-size: 18px;
+	color: #2f80ed;
+}
+.blog-topic {
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: -10px;
+}
+.blog-content {
+	font-size: 16px;
+}
+.read-more, .blog-icon {
+	color: #2f80ed;
+}
+.post-time {
+	color: #828282;
+	font-weight: 500;
+}
+.label {
+	border: 0.5px solid #e0e0e0;
+	color: #4f4f4f;
+	font-size: 10px;
+}
+#comment {
+	margin-right: -40px;
+}
+.label-default {
+	background: #f7f7f7;
+}
+#label-div {
+	margin-left: -40px;
+}
 @media screen and (max-width: 767px) {
 	#googleplus, #facebook, #twitter {
 		margin-bottom: 10px;
@@ -469,6 +502,9 @@ a:hover {
 	}
 	.dashboard-row {
     	margin-right: 0;
+	}
+	#label-div {
+		margin-left: 0;
 	}
 }
 @media screen and (max-width: 500px) {
