@@ -31,16 +31,16 @@ body {
     padding-top: 9px;
     color: #fff;
     margin-top: 5px;
-    background: #2f80ed;
-    border-color: #2f80ed;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background: #6699cc;
+    border-color: #6699cc;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 }
 #signup-button:hover {
 	background: #fff;
-	color: #2f80ed;
+	color: #6699cc;
 }
 .signin-div {
-	width: 70%;
+	width: 60%;
     height: auto;
     padding-bottom: 40px;
     background: #fff;
@@ -49,9 +49,6 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 110px;
-}
-#login-link {
-	color: #2f80ed;
 }
 .login {
 	font-size: 32px;
@@ -68,9 +65,10 @@ body {
 #signin-button {
 	width: 100%;
 	height: 50px;
-	border-radius: 4px;
-	background: #2f80ed;
-	border-color: #2f80ed;
+	border-radius: 7px;
+	background: #6699cc;
+	border-color: #6699cc;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 	color: #fff;
 	font-size: 22px;
 	font-weight: 600;
@@ -78,7 +76,7 @@ body {
 }
 #signin-button:hover {
 	background: #fff;
-	color: #2f80ed;
+	color: #6699cc;
 }
 .form-control {
 	height: 50px;
@@ -107,9 +105,9 @@ body {
 	padding-left: 30px;
     padding-right: 30px;
 }
-#googleplus {
-	background: #dd5125;
-	border-color: #dd5125;
+#linkedin {
+	background: #0077b7;
+	border-color: #0077b7;
 	color: #fff;
 	font-size: 21px;
 }
@@ -145,13 +143,16 @@ body {
 	font-size: 22px;
 	font-weight: 500;
 }
+.noaccount p span a, #cancel a, .read-more, #developer {
+	color: #6699cc;
+}
 #forgot {
 	margin-top: -10px;
 }
 
 /* footer section */
 footer {
-	background: #2f80ed;
+	background: #6699cc;
 	color: #fff;
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -184,7 +185,7 @@ footer a, footer a:hover {
 	color: #fff;
 }
 #subscribe {
-	color: #06d6a0;
+	color: #6699cc;
 	background: #fff;
 	height: 40px;
 	padding: 0 20px;
@@ -215,11 +216,11 @@ footer a, footer a:hover {
 }
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle, 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #2f80ed;
-	border-color: #2f80ed;
+	background: #6699cc;
+	border-color: #6699cc;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #2f80ed;
+	border-color: #6699cc;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
 	background: transparent;
@@ -240,9 +241,6 @@ footer a, footer a:hover {
 	font-weight: 600;
 	margin-top: 20px;
 }
-#cancel a {
-	color: #2f80ed;
-}
 
 /* landing page */ 
 #main-page {
@@ -252,7 +250,7 @@ footer a, footer a:hover {
 #verify {
 	width: 95%;
     font-size: 72px;
-    color: #2f80ed;
+    color: #6699cc;
     font-weight: bold;
 }
 .search {
@@ -266,8 +264,8 @@ footer a, footer a:hover {
 #get-started {
     width: 240px;
     height: 50px;
-    background: #2f80ed;
-    border-color: #2f80ed;
+    background: #6699cc;
+    border-color: #6699cc;
     padding-top: 7px;
     font-size: 20px;
     font-weight: 600;
@@ -275,7 +273,7 @@ footer a, footer a:hover {
 }
 #get-started:hover {
 	background: #fff;
-	color: #2f80ed;
+	color: #6699cc;
 }
 a:hover {
 	text-decoration: none;
@@ -301,7 +299,7 @@ a:hover {
 }
 #blog-post li {
 	font-size: 18px;
-	color: #2196f3;
+	color: #6699cc;
 }
 #blog-post li a, .blog-link {
 	color: #000;
@@ -311,6 +309,7 @@ a:hover {
 	line-height: 24px;
 	float: right;
 	padding-bottom: 25px;
+	color: #000;
 }
 
 /* user dashboard */
@@ -348,8 +347,8 @@ a:hover {
 }
 .create-post {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    background: #2f80ed;
-    border-color: #2f80ed;
+    background: #6699cc;
+    border-color: #6699cc;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
@@ -397,7 +396,7 @@ a:hover {
 	padding-bottom: 40px;
 }
 .users {
-	color: #2f80ed;
+	color: #6699cc;
 	font-size: 24px;
 	font-weight: 500;
 	padding: 20px 20px 0 20px;
@@ -413,8 +412,8 @@ a:hover {
 .user-view {
     padding-left: 40px;
     padding-right: 40px;
-    background: #2196f3;
-    border-color: #2196f3;
+    background: #6699cc;
+    border-color: #6699cc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     font-size: 22px;
 }
@@ -424,14 +423,23 @@ a:hover {
 	font-size: 24px;
 	margin-bottom: 15px;
 }
-#developer {
-	color: #2f80ed;
-}
 #search-container {
 	width: 80%;
 	margin: 0 auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+#welcome-div {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 15px 15px 0px 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.bold {
+	font-weight: bold;
 }
 #search-div {
 	border: 0.7px solid #bdbdbd;
@@ -451,7 +459,7 @@ a:hover {
 }
 .blog-username {
 	font-size: 18px;
-	color: #2f80ed;
+	color: #6699cc;
 }
 .blog-topic {
 	font-size: 22px;
@@ -461,8 +469,8 @@ a:hover {
 .blog-content {
 	font-size: 16px;
 }
-.read-more, .blog-icon {
-	color: #2f80ed;
+.blog-icon {
+	color: #dadada;
 }
 .post-time {
 	color: #828282;
@@ -482,6 +490,21 @@ a:hover {
 #label-div {
 	margin-left: -40px;
 }
+.blog-next {
+	background: #edeef0;
+    border: 1px solid #edeef0;
+    color: #000;
+    font-weight: 500;
+}
+.blog-arrow {
+	margin-left: 25px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
 	#googleplus, #facebook, #twitter {
 		margin-bottom: 10px;
