@@ -6,7 +6,7 @@ body {
 	float: left;
 }
 #logo-link {
-	margin-top: -7px;
+	margin-top: -14px;
 }
 .navbar-inverse {
 	background-color: #fff;
@@ -40,7 +40,7 @@ body {
 	color: #6699cc;
 }
 .signin-div {
-	width: 60%;
+	width: 50%;
     height: auto;
     padding-bottom: 40px;
     background: #fff;
@@ -102,8 +102,8 @@ body {
     background-color: #fff;
 }
 .socials {
-	padding-left: 25px;
-    padding-right: 25px;
+	padding-left: 20px;
+    padding-right: 20px;
 }
 #linkedin {
 	background: #0077b7;
@@ -391,6 +391,12 @@ a:hover {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
+.user-div-right {
+	margin-right: 20px;
+} 
+.user-div-left {
+	margin-left: 20px;
+}
 .user-container {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -508,6 +514,16 @@ a:hover {
 @media screen and (max-width: 767px) {
 	#linkedin, #facebook, #twitter {
 		margin-bottom: 10px;
+	}
+	.signin-div {
+    	width: 60%;
+	}
+	.user-div-right {
+		margin-right: auto;
+		margin-bottom: 20px;
+	} .user-div-left {
+		margin-left: auto;
+		margin-bottom: 20px;
 	}
 	#nav-container {
 		background: #fff;
