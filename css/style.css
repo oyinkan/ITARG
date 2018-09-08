@@ -51,7 +51,7 @@ body {
     margin-bottom: 110px;
 }
 .login {
-	font-size: 32px;
+	font-size: 30px;
 	color: #000;
 	text-align: center;
 	padding-top: 50px;
@@ -70,7 +70,7 @@ body {
 	border-color: #6699cc;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 	color: #fff;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 600;
 	padding-top: 3px;
 }
@@ -81,6 +81,7 @@ body {
 .form-control {
 	height: 50px;
 	border: 1px solid #bdbdbd;
+	font-size: 18px;
 }
 .signin-line {
 	border: 1px solid #bdbdbd;
@@ -230,14 +231,14 @@ footer a, footer a:hover {
 
 /* reset page */
 #reset {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 500;
 	padding: 10px 0;
 	text-align: center;
 	margin-bottom: 20px;
 }
 #cancel {
-	font-size: 24px;
+	font-size: 21px;
 	font-weight: 600;
 	margin-top: 20px;
 }
