@@ -329,7 +329,7 @@ a:hover {
 	position: relative;
 	float: right;
     top: -33px;
-    right: 20px;
+    right: 70px;
 }
 .dashboard-row {
 	margin-right: -70px;
@@ -656,7 +656,38 @@ a:hover {
 .space-left {
 	margin-left: -40px;
 }
-
+/*createblog page*/
+#createpost {
+	font-size: 20px;
+	font-weight: 600;
+	color: #222;
+}
+#createpost-line {
+	border: 2px solid #333333;
+	width: 7%;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.cancel {
+	background: #C4C4C4;
+	border: #c4c4c4;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	padding: 10px 40px;
+	margin-right: 10px; 
+}
+.save {
+	background: #2F80ED;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	padding: 10px 40px; 
+	margin-left: 10px;
+}
+#save-div {
+	margin-top: 40px; 
+	margin-bottom: 100px;
+}
 
 @media screen and (max-width: 767px) {
 	#linkedin, #facebook, #twitter {

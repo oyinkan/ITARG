@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ITARG - DASHBOARD</title>
+	<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="font-awesome-4.7.0/css/font-awesome-animation.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+        body {
+            background: #fff;
+        }
+        header {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        input, textarea {
+            border: 1px solid #C4C4C4;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+            border-radius: 4px;
+            width: 90%!important;
+        }
+        select {
+            width: 90%!important;
+        }
+        label {
+            font-size: 18px;
+            color: #000;
+        }
+        @media screen and (max-width: 767px) {
+            #logo {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container dashboard-container">
+            <div class="row dashboard-row">
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div>
+                        <a href="index.html" id="logo-link"><img src="images/logo.png" alt="logo" id="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-5 col-xs-12">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control user-search" placeholder="Search for jobs..."><i class="fa fa-search usersearch"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-12">
+                    <div class="row create-row">
+                        <!-- <div class="col-md-1 col-sm-0 col-xs-0"></div> -->
+                        <div class="col-md-2 col-sm-2 col-xs-2">
+                            <div class="dash-icon">
+                                <a href="">
+                                <i class="fa fa-bell"></i>
+                                <p>4</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2">
+                            <div>
+                                <p id="dashboard-blog"><a href="">BLOG</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-4">
+                            <div class="dropdown dashboard-dropdown">
+                                <p class="dropdown-toggle" data-toggle="dropdown"><img src="images/avatar.png" alt="profile image"><span class="caret"></span></p>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <a class="btn btn-info create-post">CREATE POST</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container dashboard-container" style="margin-top: 30px; padding-right: 30px;">
+        <p id="createpost">CREATE POSTS</p>
+        <hr id="createpost-line">
+        <form style="clear: left;">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control" id="title">
+                    </div>   
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="tags">Tags</label>
+                        <select class="form-control" id="tags">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="details">Details</label>
+                        <textarea class="form-control" rows="5" id="details"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="email">Upload Files</label>
+                        <input type="file" class="form-control" id="upload" style="height: 140px;">
+                    </div>   
+                </div>
+            </div>
+            <div class="text-center" id="save-div">
+                <a class="btn btn-info cancel">Cancel</a>
+                <a class="btn btn-info save">Save</a>
+            </div>
+        </form>
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="row address">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <p>ITARJ</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <p>SERVICES</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <p>BLOG</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <p>DEVELOPERS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                    <div id="footerlinks-div">
+                        <a href=""><i class="fa fa-instagram links"></i></a>
+                        <a href=""><i class="fa fa-linkedin-square links"></i></a>
+                        <a href=""><i class="fa fa-twitter links"></i></a>
+                        <a href=""><i class="fa fa-facebook-square links"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div>
+                        <p>01-234567</p>
+                        <p class="space">4081 Lorem Rue Ipsum, Lagos</p>
+                        <p class="space">support@isthisarealjob.com</p>
+                    </div>
+                    <p id="copy">Copyright &copy 2018 Staybusy</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                    <div class="pull-right">
+                        <p>Lorem ipsum dolor sit amet, consecte sed do<br> eiusmod tempoLorem</p>
+                        <div>
+                            <form class="form-inline" id="subscribe-div">
+                                <div class="form-group">
+                                    <input type="email" class="form-control change-color" id="newsletter-email" placeholder="Enter email">
+                                </div>
+                                <button type="submit" class="btn btn-default" id="subscribe">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
